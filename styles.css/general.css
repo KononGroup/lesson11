@@ -1,0 +1,9 @@
+body {
+    font-family: Gilroy, sans-serif;
+}
+
+.general-wrapper {
+    width: 1320px;
+    margin-right: auto;
+    margin-left: auto;
+}
