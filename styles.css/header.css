@@ -38,4 +38,45 @@
     justify-content: space-between;
     margin-top: 57px;
     margin-bottom: 30px;
+    align-items: baseline;
+}
+
+a {
+    text-decoration: none;
+}
+
+.navigation a {
+    color:  #4F4F4F;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+input {
+    width: 345px;
+    height: 54px;
+    border-radius: 10px;
+    border: 1px solid #BDBDBD;
+    background:  #F2F2F2;
+}
+
+::placeholder {
+    color:  #828282;
+    font-size: 18px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
+    background: url(../images/Search.png) no-repeat right;
+    
+}
+
+.navigation a:not(:last-child){
+    margin-right: 40px;
+} 
+
+.drop-down::after {
+    content: url(../images/eva_arrow-ios-upward-outline.png);
+    width: 15px;
+    height: 15px;
+    color: #4F4F4F;
+    margin-left: 4px;
 }
