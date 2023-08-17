@@ -7,7 +7,7 @@
 
 .wrap-top-of-header {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 }
 
 .wrap-top-of-header p {
@@ -79,4 +79,12 @@ input {
     height: 15px;
     color: #4F4F4F;
     margin-left: 4px;
+}
+
+.wrap-right-part-header a {
+    display: flex;
+    align-items: center;
+    color: #000;
+    font-size: 18px;
+    font-weight: 400;
 }
